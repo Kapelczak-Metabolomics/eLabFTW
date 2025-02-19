@@ -175,7 +175,7 @@ services:
         # optional: disable https, use this to have an http server listening on port 443
         # useful if the SSL stack is handled by haproxy or something alike
         # default value: false
-        - DISABLE_HTTPS=false
+        - DISABLE_HTTPS=true
 
         # set to true to use letsencrypt or other certificates
         # note: does nothing if DISABLE_HTTPS is set to true
