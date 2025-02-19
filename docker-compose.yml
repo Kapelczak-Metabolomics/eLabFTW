@@ -89,7 +89,7 @@ services:
 
         # MySQL password; a random password has been generated for you but feel free to change it if needed
         # default value: generated randomly if you get the config from get.elabftw.net
-        - DB_PASSWORD=VzmfpV7IyRybEn5ZKyRkNm1hNdfNpjF
+        - DB_PASSWORD=A1b2C3d4E5f6G7h8I9j0K1l2M3n4O5p6
 
         # Mysql Cert path: you only need this if you connect to a mysql server with tls
         # Use a volume that points to /mysql-cert in the container
@@ -386,13 +386,13 @@ services:
         - SYS_NICE
     environment:
         # need to change
-        - MYSQL_ROOT_PASSWORD=Jzy8gsJdO8wvGIfqSzWzUoZ8ASsCLXU
+        - MYSQL_ROOT_PASSWORD=A1b2C3d4E5f6G7h8I9j0K1l2M3n4O5p6
         # no need to change
         - MYSQL_DATABASE=elabftw
         # no need to change
         - MYSQL_USER=elabftw
         # need to change IMPORTANT: this should be the same password as DB_PASSWORD from the elabftw container
-        - MYSQL_PASSWORD=VzmfpV7IyRybEn5ZKyRkNm1hNdfNpjF
+        - MYSQL_PASSWORD=A1b2C3d4E5f6G7h8I9j0K1l2M3n4O5p6
         # need to change, this is your timezone, see PHP_TIMEZONE from the elabftw container
         - TZ=Europe/Paris
         # Update this if you want to run the server on a different port than 3306.
