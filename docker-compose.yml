@@ -322,7 +322,7 @@ services:
         #
         # if you want elabftw to run on a different port, change the first number
         # host:container
-        - '443:443'
+        - '6443:443'
         # if you are aiming for running multiple instances of this container you can put a range like so:
         # - "3100-3200:443"
         # use redis for session storage if that is the case, or configure your load balancer with sticky sessions
